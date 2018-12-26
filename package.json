@@ -1,0 +1,20 @@
+{
+  "name": "ned-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
