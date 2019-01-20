@@ -9,6 +9,9 @@
     "start": "node ./app",
     "dev": "nodemon ./app"
   },
+  "jest":{
+    "testEnvironment":"node"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -22,6 +25,7 @@
     "elliptic": "^6.4.1",
     "express": "^4.16.4",
     "jshint": "^2.9.7",
+    "uuid": "^3.3.2",
     "ws": "^6.1.2"
   }
 }
