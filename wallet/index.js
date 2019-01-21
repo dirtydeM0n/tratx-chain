@@ -12,5 +12,8 @@ class Wallet {
             publickey : ${this.publicKey.toString()}
             balance   : ${this.balance}`;
     }
+    sign(datahash) {
+        return this.keyPair.sign(datahash); // built-in function in ellipctic datahash will be used to create a signature
+    }
 }
 module.exports = Wallet;
